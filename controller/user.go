@@ -1,6 +1,7 @@
 package controller
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 	"net/http"
@@ -41,4 +42,29 @@ func SignUpController(ctx *gin.Context) {
 		"msg": "注册成功!",
 	})
 	return
+}
+
+func LoginController(ctx *gin.Context) {
+	// 获取参数，去数据库比对
+	userMsg := new(models.ParmaLogin)
+	if err := ctx.ShouldBindJSON(userMsg); err != nil {
+		fmt.Println(userMsg)
+
+		zap.L().Error("login with invalid param", zap.Error(err))
+		ctx.JSON(http.StatusOK, gin.H{
+			"msg": selfpkg.Trans2cnForSignUp(err.Error()),
+		})
+		return
+	}
+
+	// 处理逻辑
+	if err := service.Login(userMsg); err != nil {
+		ctx.JSON(http.StatusOK, gin.H{
+			"msg": "登陆失败： " + err.Error(),
+		})
+		return
+	}
+	ctx.JSON(http.StatusOK, gin.H{
+		"msg": "登陆成功",
+	})
 }

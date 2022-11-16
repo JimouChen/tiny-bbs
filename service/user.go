@@ -22,3 +22,11 @@ func SignUp(user *models.ParmaRegister) (err error) {
 	//保存入库
 	return mysql.InsertUser(u)
 }
+
+func Login(user *models.ParmaLogin) (err error) {
+	u := &models.User{
+		Username: user.Username,
+		Password: user.Password,
+	}
+	return mysql.Login(u)
+}

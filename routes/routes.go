@@ -19,6 +19,7 @@ func Init() *gin.Engine {
 
 	// 用户注册
 	r.POST("/signup", controller.SignUpController)
+	r.POST("/login", controller.LoginController)
 
 	return r
 }

@@ -2,6 +2,7 @@ package mysql
 
 import (
 	"crypto/md5"
+	sql2 "database/sql"
 	"encoding/hex"
 	"errors"
 	"tiny-bbs/models"
@@ -37,4 +38,21 @@ func Md5Psw(password string) string {
 	h := md5.New()
 	h.Write([]byte(secretBase))
 	return hex.EncodeToString(h.Sum([]byte(password)))
+}
+
+func Login(user *models.User) (err error) {
+	sqlStr := "select user_id, username, password from user where username = ?;"
+	res := models.User{}
+	err = db.Get(&res, sqlStr, user.Username)
+	if err == sql2.ErrNoRows {
+		return errors.New("用户不存在")
+	}
+	if err != nil {
+		return errors.New("数据库查询失败")
+	}
+	if res.Password != Md5Psw(user.Password) {
+		return errors.New("用户密码错误")
+	}
+	return
+
 }
