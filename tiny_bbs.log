@@ -1,0 +1,29 @@
+{"level":"DEBUG","time":"2022-11-16T00:05:39.730+0800","caller":"tiny-bbs/main.go:33","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-16T00:06:03.653+0800","caller":"tiny-bbs/main.go:75","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-16T00:06:03.654+0800","caller":"tiny-bbs/main.go:84","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-16T15:25:51.635+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-16T15:26:05.258+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-16T15:26:05.260+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-16T15:32:56.588+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-16T15:33:05.452+0800","caller":"controller/user.go:24","msg":"sign up with invalid param"}
+{"level":"INFO","time":"2022-11-16T15:33:14.784+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-16T15:33:14.785+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-16T15:38:16.920+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-16T15:38:33.448+0800","caller":"controller/user.go:25","msg":"sign up with invalid param"}
+{"level":"INFO","time":"2022-11-16T15:38:38.575+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-16T15:38:38.577+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-16T15:47:12.959+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-16T15:47:40.781+0800","caller":"controller/user.go:17","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.Password' Error:Field validation for 'Password' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-11-16T15:47:48.614+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-16T15:47:48.616+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-16T15:57:53.908+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-16T15:57:57.678+0800","caller":"controller/user.go:17","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"ERROR","time":"2022-11-16T15:58:11.698+0800","caller":"controller/user.go:17","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2022-11-16T15:58:23.303+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-16T15:58:23.305+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-16T16:20:16.611+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-16T16:20:23.799+0800","caller":"controller/user.go:18","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"ERROR","time":"2022-11-16T16:20:29.130+0800","caller":"controller/user.go:18","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"ERROR","time":"2022-11-16T16:20:38.104+0800","caller":"controller/user.go:18","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-11-16T16:21:00.006+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-16T16:21:00.007+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
