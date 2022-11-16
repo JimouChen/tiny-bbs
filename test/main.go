@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"tiny-bbs/dao/mysql"
 	"tiny-bbs/pkg/snowflake"
 )
 
@@ -12,6 +13,11 @@ func testSnowflake() {
 	}
 }
 
+func testMd5() {
+	fmt.Println(mysql.Md5Psw("123a"))
+}
+
 func main() {
-	testSnowflake()
+	//testSnowflake()
+	testMd5()
 }

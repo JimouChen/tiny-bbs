@@ -30,7 +30,12 @@ func SignUpController(ctx *gin.Context) {
 	//}
 
 	//- 业务处理，调service层逻辑代码，service调dao层
-	service.SignUp(userMsg)
+	if err := service.SignUp(userMsg); err != nil {
+		ctx.JSON(http.StatusOK, gin.H{
+			"msg": "注册失败:" + err.Error(),
+		})
+		return
+	}
 	//- 返回响应
 	ctx.JSON(http.StatusOK, gin.H{
 		"msg": "注册成功!",

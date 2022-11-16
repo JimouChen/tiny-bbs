@@ -27,3 +27,14 @@
 {"level":"ERROR","time":"2022-11-16T16:20:38.104+0800","caller":"controller/user.go:18","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
 {"level":"INFO","time":"2022-11-16T16:21:00.006+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2022-11-16T16:21:00.007+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-16T21:23:34.369+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-16T21:24:16.257+0800","caller":"controller/user.go:17","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"ERROR","time":"2022-11-16T21:24:29.857+0800","caller":"controller/user.go:17","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"ERROR","time":"2022-11-16T21:25:02.614+0800","caller":"controller/user.go:17","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"ERROR","time":"2022-11-16T21:25:06.812+0800","caller":"controller/user.go:17","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-11-16T21:26:53.731+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-16T21:26:53.733+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-16T21:26:55.991+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-16T21:27:03.425+0800","caller":"controller/user.go:17","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2022-11-16T21:28:22.455+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-16T21:28:22.457+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
