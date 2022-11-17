@@ -38,3 +38,96 @@
 {"level":"ERROR","time":"2022-11-16T21:27:03.425+0800","caller":"controller/user.go:17","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
 {"level":"INFO","time":"2022-11-16T21:28:22.455+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2022-11-16T21:28:22.457+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-16T23:53:48.608+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-16T23:54:28.199+0800","caller":"controller/user.go:51","msg":"login with invalid param","error":"Key: 'ParmaLogin.Username' Error:Field validation for 'Username' failed on the 'required' tag\nKey: 'ParmaLogin.Password' Error:Field validation for 'Password' failed on the 'required' tag"}
+{"level":"ERROR","time":"2022-11-16T23:57:35.752+0800","caller":"controller/user.go:51","msg":"login with invalid param","error":"Key: 'ParmaLogin.Username' Error:Field validation for 'Username' failed on the 'required' tag\nKey: 'ParmaLogin.Password' Error:Field validation for 'Password' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-11-16T23:59:44.242+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-16T23:59:44.243+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-16T23:59:45.667+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-16T23:59:48.228+0800","caller":"controller/user.go:50","msg":"login with invalid param","error":"Key: 'ParmaLogin.Username' Error:Field validation for 'Username' failed on the 'required' tag\nKey: 'ParmaLogin.Password' Error:Field validation for 'Password' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-11-17T00:01:43.022+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T00:01:43.024+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T00:01:44.438+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-17T00:01:49.115+0800","caller":"controller/user.go:52","msg":"login with invalid param","error":"Key: 'ParmaLogin.Username' Error:Field validation for 'Username' failed on the 'required' tag\nKey: 'ParmaLogin.Password' Error:Field validation for 'Password' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-11-17T00:02:19.756+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T00:02:19.758+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T00:02:22.331+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-17T00:02:25.200+0800","caller":"controller/user.go:53","msg":"login with invalid param","error":"Key: 'ParmaLogin.Username' Error:Field validation for 'Username' failed on the 'required' tag\nKey: 'ParmaLogin.Password' Error:Field validation for 'Password' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-11-17T00:02:44.105+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T00:02:44.107+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T00:02:46.615+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-17T00:03:02.696+0800","caller":"controller/user.go:53","msg":"login with invalid param","error":"Key: 'ParmaLogin.Password' Error:Field validation for 'Password' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-11-17T00:03:08.854+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T00:03:08.856+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T10:01:59.883+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-17T10:02:04.736+0800","caller":"controller/user.go:59","msg":"login with invalid param","error":"Key: 'ParmaLogin.Password' Error:Field validation for 'Password' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-11-17T10:02:16.267+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T10:02:16.269+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T10:05:33.962+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-17T10:05:56.622+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T10:05:56.623+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T10:11:43.208+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-17T10:11:54.704+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T10:11:54.705+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T10:12:50.139+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-17T10:13:03.087+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T10:13:03.088+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T10:13:04.577+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-17T10:13:18.553+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T10:13:18.554+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T10:13:19.930+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-17T10:14:02.028+0800","caller":"controller/user.go:19","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2022-11-17T10:14:31.410+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T10:14:31.411+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T10:15:45.027+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-17T10:15:54.551+0800","caller":"controller/user.go:60","msg":"login with invalid param","error":"Key: 'ParmaLogin.Password' Error:Field validation for 'Password' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-11-17T10:16:19.213+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T10:16:19.215+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T10:16:20.741+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-17T10:16:27.332+0800","caller":"controller/user.go:60","msg":"login with invalid param","error":"Key: 'ParmaLogin.Username' Error:Field validation for 'Username' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-11-17T10:17:07.453+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T10:17:07.454+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T10:17:09.085+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-17T10:17:12.990+0800","caller":"controller/user.go:60","msg":"login with invalid param","error":"Key: 'ParmaLogin.Username' Error:Field validation for 'Username' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-11-17T10:17:40.586+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T10:17:40.588+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T10:25:29.523+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-17T10:25:36.092+0800","caller":"controller/user.go:60","msg":"login with invalid param","error":"Key: 'ParmaLogin.Username' Error:Field validation for 'Username' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-11-17T10:25:40.600+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T10:25:40.602+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T10:27:34.327+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-17T10:27:37.251+0800","caller":"controller/user.go:59","msg":"login with invalid param","error":"Key: 'ParmaLogin.Username' Error:Field validation for 'Username' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-11-17T10:28:16.011+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T10:28:16.013+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T10:31:41.600+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-17T10:33:17.335+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T10:33:17.337+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T10:33:18.980+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-17T10:33:38.285+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T10:33:38.287+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T10:33:39.686+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-17T10:33:51.971+0800","caller":"controller/user.go:59","msg":"login with invalid param","error":"Key: 'ParmaLogin.Username' Error:Field validation for 'Username' failed on the 'required' tag"}
+{"level":"ERROR","time":"2022-11-17T10:34:01.885+0800","caller":"controller/user.go:59","msg":"login with invalid param","error":"Key: 'ParmaLogin.Password' Error:Field validation for 'Password' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-11-17T10:35:22.169+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T10:35:22.170+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T10:35:23.508+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-17T10:35:33.245+0800","caller":"controller/user.go:18","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"ERROR","time":"2022-11-17T10:35:37.660+0800","caller":"controller/user.go:18","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2022-11-17T10:36:32.781+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T10:36:32.783+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T10:38:07.909+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-17T10:38:10.810+0800","caller":"logger/logger.go:111","msg":"[Recovery from panic]","error":"invalid WriteHeader code 10002","request":"POST /signup HTTP/1.1\r\nHost: localhost:8081\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nConnection: keep-alive\r\nContent-Length: 74\r\nContent-Type: application/json\r\nPostman-Token: a41e04dd-7c17-4df5-8613-a90c1a45f5b7\r\nUser-Agent: PostmanRuntime/7.29.0\r\n\r\n","stack":"goroutine 66 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0x88\ntiny-bbs/logger.GinRecovery.func1.1(0x14000122200, 0x1)\n\t/Users/jmchen/program/go_program/gitProject/tiny-bbs/logger/logger.go:114 +0x2d8\npanic({0x104c8c600, 0x14000098c80})\n\t/usr/local/go/src/runtime/panic.go:1038 +0x21c\nnet/http.checkWriteHeaderCode(...)\n\t/usr/local/go/src/net/http/server.go:1089\nnet/http.(*response).WriteHeader(0x140003d21c0, 0x2712)\n\t/usr/local/go/src/net/http/server.go:1123 +0x59c\ngithub.com/gin-gonic/gin.(*responseWriter).WriteHeaderNow(...)\n\t/Users/jmchen/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/response_writer.go:72\ngithub.com/gin-gonic/gin.(*responseWriter).Write(0x14000122200, {0x14000028190, 0x42, 0x50})\n\t/Users/jmchen/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/response_writer.go:77 +0x4c\ngithub.com/gin-gonic/gin/render.WriteJSON({0x12c02f0e8, 0x14000122200}, {0x104c81ac0, 0x1400040c990})\n\t/Users/jmchen/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/render/json.go:75 +0xc4\ngithub.com/gin-gonic/gin/render.JSON.Render(...)\n\t/Users/jmchen/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/render/json.go:57\ngithub.com/gin-gonic/gin.(*Context).Render(0x14000122200, 0x2712, {0x104d3a3c8, 0x14000098ba0})\n\t/Users/jmchen/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:910 +0x118\ngithub.com/gin-gonic/gin.(*Context).JSON(...)\n\t/Users/jmchen/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:953\ntiny-bbs/controller.ResponseErrWithMsg(0x14000122200, 0x2712, {0x104bac88c, 0xd})\n\t/Users/jmchen/program/go_program/gitProject/tiny-bbs/controller/response.go:53 +0x134\ntiny-bbs/controller.SignUpController(0x14000122200)\n\t/Users/jmchen/program/go_program/gitProject/tiny-bbs/controller/user.go:41 +0x22c\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/jmchen/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ntiny-bbs/logger.GinRecovery.func1(0x14000122200)\n\t/Users/jmchen/program/go_program/gitProject/tiny-bbs/logger/logger.go:125 +0x70\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/jmchen/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ntiny-bbs/logger.GinLogger.func1(0x14000122200)\n\t/Users/jmchen/program/go_program/gitProject/tiny-bbs/logger/logger.go:66 +0x90\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/jmchen/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0x140004d4000, 0x14000122200)\n\t/Users/jmchen/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 +0x58c\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0x140004d4000, {0x104d3aac0, 0x140003d21c0}, 0x14000122100)\n\t/Users/jmchen/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 +0x1bc\nnet/http.serverHandler.ServeHTTP({0x140003d20e0}, {0x104d3aac0, 0x140003d21c0}, 0x14000122100)\n\t/usr/local/go/src/net/http/server.go:2878 +0x444\nnet/http.(*conn).serve(0x1400011a780, {0x104d3eb00, 0x140000944e0})\n\t/usr/local/go/src/net/http/server.go:1929 +0xb6c\ncreated by net/http.(*Server).Serve\n\t/usr/local/go/src/net/http/server.go:3033 +0x4b8\n"}
+{"level":"INFO","time":"2022-11-17T10:38:10.810+0800","caller":"logger/logger.go:69","msg":"/signup","status":500,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.29.0","errors":"","cost":0.001853958}
+{"level":"INFO","time":"2022-11-17T10:38:19.644+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T10:38:19.646+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T14:42:48.887+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-17T14:43:02.842+0800","caller":"controller/user.go:18","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2022-11-17T14:43:31.346+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T14:43:31.349+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T14:49:40.362+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-17T14:49:58.505+0800","caller":"controller/user.go:60","msg":"login with invalid param","error":"Key: 'ParmaLogin.Password' Error:Field validation for 'Password' failed on the 'required' tag"}
+{"level":"ERROR","time":"2022-11-17T14:50:10.572+0800","caller":"controller/user.go:60","msg":"login with invalid param","error":"Key: 'ParmaLogin.Username' Error:Field validation for 'Username' failed on the 'required' tag"}
+{"level":"ERROR","time":"2022-11-17T14:50:53.521+0800","caller":"controller/user.go:18","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"ERROR","time":"2022-11-17T14:51:24.260+0800","caller":"controller/user.go:18","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.Username' Error:Field validation for 'Username' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-11-17T14:51:36.426+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T14:51:36.427+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}

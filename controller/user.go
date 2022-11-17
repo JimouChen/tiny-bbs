@@ -1,10 +1,10 @@
 package controller
 
 import (
-	"fmt"
+	"errors"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
-	"net/http"
+	"tiny-bbs/dao/mysql"
 	"tiny-bbs/models"
 	"tiny-bbs/pkg/selfpkg"
 	"tiny-bbs/service"
@@ -16,9 +16,7 @@ func SignUpController(ctx *gin.Context) {
 	userMsg := new(models.ParmaRegister)
 	if err := ctx.ShouldBindJSON(userMsg); err != nil {
 		zap.L().Error("sign up with invalid param", zap.Error(err))
-		ctx.JSON(http.StatusOK, gin.H{
-			"msg": selfpkg.Trans2cnForSignUp(err.Error()),
-		})
+		ResponseErrWithMsg(ctx, CodeInvalidParams, selfpkg.Trans2cnForSignUp(err.Error()))
 		return
 	}
 	// 手动判断亲请求参数合理性
@@ -32,15 +30,16 @@ func SignUpController(ctx *gin.Context) {
 
 	//- 业务处理，调service层逻辑代码，service调dao层
 	if err := service.SignUp(userMsg); err != nil {
-		ctx.JSON(http.StatusOK, gin.H{
-			"msg": "注册失败:" + err.Error(),
-		})
+		if errors.Is(err, mysql.ErrUserExist) {
+			ResponseErrWithMsg(ctx, CodeUserExist, " 注册失败")
+			return
+		}
+		ResponseErrWithMsg(ctx, CodeServerBusy, " 注册失败")
+
 		return
 	}
 	//- 返回响应
-	ctx.JSON(http.StatusOK, gin.H{
-		"msg": "注册成功!",
-	})
+	ResponseSuccess(ctx, "注册成功")
 	return
 }
 
@@ -48,23 +47,22 @@ func LoginController(ctx *gin.Context) {
 	// 获取参数，去数据库比对
 	userMsg := new(models.ParmaLogin)
 	if err := ctx.ShouldBindJSON(userMsg); err != nil {
-		fmt.Println(userMsg)
-
 		zap.L().Error("login with invalid param", zap.Error(err))
-		ctx.JSON(http.StatusOK, gin.H{
-			"msg": selfpkg.Trans2cnForSignUp(err.Error()),
-		})
+		ResponseErrWithMsg(ctx, CodeInvalidParams, selfpkg.Trans2cnForSignUp(err.Error()))
 		return
 	}
 
 	// 处理逻辑
 	if err := service.Login(userMsg); err != nil {
-		ctx.JSON(http.StatusOK, gin.H{
-			"msg": "登陆失败： " + err.Error(),
-		})
+		msgAdd := " 登陆失败"
+		if errors.Is(err, mysql.ErrServerBusy) {
+			ResponseErrWithMsg(ctx, CodeServerBusy, msgAdd)
+		} else if errors.Is(err, mysql.ErrUserNotExist) {
+			ResponseErrWithMsg(ctx, CodeUserNotExist, msgAdd)
+		} else if errors.Is(err, mysql.ErrPswUName) {
+			ResponseErrWithMsg(ctx, CodeErrUserPsw, msgAdd)
+		}
 		return
 	}
-	ctx.JSON(http.StatusOK, gin.H{
-		"msg": "登陆成功",
-	})
+	ResponseSuccess(ctx, "登陆成功")
 }
