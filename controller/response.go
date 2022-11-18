@@ -62,5 +62,3 @@ func ResponseSuccess(ctx *gin.Context, data interface{}) {
 		Data: data,
 	})
 }
-
-// route->mid->contr
