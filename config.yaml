@@ -1,0 +1,31 @@
+app:
+  name: "Tiny-BBS"
+  mode: "dev"
+  port: "8081"
+  version: "v0.0.3"
+  start_time: "2022-01-01"
+  machine_id: 1
+
+log:
+  level: "debug"
+  filename: "tiny_bbs.log"
+  max_size: 20
+  max_age: 30
+  max_backups: 5
+
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  user: "root"
+  password: "xxx"
+  dbname: "db_bbs"
+  max_open_conns: 20
+  max_idle_conns: 10
+
+
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  password: "xxx"
+  db: 0
+  pool_size: 20
