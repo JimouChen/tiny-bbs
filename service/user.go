@@ -3,6 +3,7 @@ package service
 import (
 	"tiny-bbs/dao/mysql"
 	"tiny-bbs/models"
+	"tiny-bbs/pkg/jwt"
 	"tiny-bbs/pkg/snowflake"
 )
 
@@ -23,10 +24,13 @@ func SignUp(user *models.ParmaRegister) (err error) {
 	return mysql.InsertUser(u)
 }
 
-func Login(user *models.ParmaLogin) (err error) {
+func Login(user *models.ParmaLogin) (token string, err error) {
 	u := &models.User{
 		Username: user.Username,
 		Password: user.Password,
 	}
-	return mysql.Login(u)
+	if err := mysql.Login(u); err != nil {
+		return "", err
+	}
+	return jwt.GenToken(u.UserId, u.Username)
 }

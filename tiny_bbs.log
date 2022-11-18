@@ -131,3 +131,12 @@
 {"level":"ERROR","time":"2022-11-17T14:51:24.260+0800","caller":"controller/user.go:18","msg":"sign up with invalid param","error":"Key: 'ParmaRegister.Username' Error:Field validation for 'Username' failed on the 'required' tag"}
 {"level":"INFO","time":"2022-11-17T14:51:36.426+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2022-11-17T14:51:36.427+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T17:40:22.022+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-17T17:45:15.504+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T17:45:15.506+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T17:45:17.465+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-17T17:46:42.969+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T17:46:42.970+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-17T21:18:06.660+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-17T21:18:13.285+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-17T21:18:13.286+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}

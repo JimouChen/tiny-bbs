@@ -5,6 +5,7 @@ import (
 	"github.com/spf13/viper"
 	"net/http"
 	"tiny-bbs/controller"
+	"tiny-bbs/middleware"
 )
 
 func Init() *gin.Engine {
@@ -19,7 +20,13 @@ func Init() *gin.Engine {
 
 	// 用户注册
 	r.POST("/signup", controller.SignUpController)
+	// 用户登陆
 	r.POST("/login", controller.LoginController)
-
+	// 主页
+	r.GET("/home", middleware.JWTAuthMiddleware(), func(context *gin.Context) {
+		context.JSON(http.StatusOK, gin.H{
+			"test_msg": "ok",
+		})
+	})
 	return r
 }

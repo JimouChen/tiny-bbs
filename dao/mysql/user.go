@@ -50,15 +50,15 @@ func Md5Psw(password string) string {
 
 func Login(user *models.User) (err error) {
 	sqlStr := "select user_id, username, password from user where username = ?;"
-	res := models.User{}
-	err = db.Get(&res, sqlStr, user.Username)
+	originPsw := user.Password
+	err = db.Get(user, sqlStr, user.Username)
 	if err == sql2.ErrNoRows {
 		return ErrUserNotExist
 	}
 	if err != nil {
 		return ErrServerBusy
 	}
-	if res.Password != Md5Psw(user.Password) {
+	if user.Password != Md5Psw(originPsw) {
 		return ErrPswUName
 	}
 	return

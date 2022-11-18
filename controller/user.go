@@ -53,7 +53,8 @@ func LoginController(ctx *gin.Context) {
 	}
 
 	// 处理逻辑
-	if err := service.Login(userMsg); err != nil {
+	token, err := service.Login(userMsg)
+	if err != nil {
 		msgAdd := " 登陆失败"
 		if errors.Is(err, mysql.ErrServerBusy) {
 			ResponseErrWithMsg(ctx, CodeServerBusy, msgAdd)
@@ -64,5 +65,5 @@ func LoginController(ctx *gin.Context) {
 		}
 		return
 	}
-	ResponseSuccess(ctx, "登陆成功")
+	ResponseSuccess(ctx, gin.H{"token": token})
 }
