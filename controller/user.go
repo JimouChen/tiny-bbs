@@ -65,5 +65,6 @@ func LoginController(ctx *gin.Context) {
 		}
 		return
 	}
+	ctx.Set(KeyToken, token)
 	ResponseSuccess(ctx, gin.H{"token": token})
 }

@@ -25,6 +25,7 @@ const (
 	CodeAuthNull
 	CodeAuthErrFormat
 	CodeAuthInvalidToken
+	CodeParamTypeErr
 )
 
 var CodeMsgText = map[int]string{
@@ -37,6 +38,7 @@ var CodeMsgText = map[int]string{
 	CodeAuthNull:         "请求头中auth为空，需要登陆",
 	CodeAuthErrFormat:    "请求头中auth格式有误，需要登陆",
 	CodeAuthInvalidToken: "无效的Token",
+	CodeParamTypeErr:     "参数类型错误",
 }
 
 func ResponseErr(ctx *gin.Context, code int) {

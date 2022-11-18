@@ -7,7 +7,7 @@ import (
 )
 
 // TokenExpireDuration 设置token的过期时间
-const TokenExpireDuration = time.Hour * 2
+const TokenExpireDuration = 24 * 2 * time.Hour
 
 // SaltSecret 用于加盐/签名的字符串，用来混淆加密
 var SaltSecret = []byte("用于签名的秘密字符串")

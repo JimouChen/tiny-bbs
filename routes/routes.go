@@ -18,15 +18,17 @@ func Init() *gin.Engine {
 		})
 	})
 
+	v1 := r.Group("/api/v1")
+
 	// 用户注册
-	r.POST("/signup", controller.SignUpController)
+	v1.POST("/signup", controller.SignUpController)
 	// 用户登陆
-	r.POST("/login", controller.LoginController)
-	// 主页
-	r.GET("/home", middleware.JWTAuthMiddleware(), func(context *gin.Context) {
-		context.JSON(http.StatusOK, gin.H{
-			"test_msg": "ok",
-		})
-	})
+	v1.POST("/login", controller.LoginController)
+
+	v1.Use(middleware.JWTAuthMiddleware())
+	{
+		v1.GET("/community", controller.CommunityController)
+		v1.GET("/community/:id", controller.CommIntroByIdController)
+	}
 	return r
 }
