@@ -31,7 +31,10 @@ func Init() *gin.Engine {
 		v1.GET("/community/:id", controller.CommIntroByIdController)
 		// 发布信息
 		v1.POST("/post", controller.PostMsgController)
+		// 通过帖子id查看帖子
 		v1.GET("/post/:id", controller.GetPostMsgByIdController)
+		// 查看分页帖子详情posts?page=x&size=x
+		v1.GET("/posts", controller.GetPostMsgListController)
 	}
 	return r
 }

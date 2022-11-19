@@ -42,6 +42,26 @@ func GetPostMsgByIdController(ctx *gin.Context) {
 	if err != nil {
 		zap.L().Error("service.GetPostMsgById err...", zap.Error(err))
 		ResponseErr(ctx, CodeServerBusy)
+		return
+	}
+	ResponseSuccess(ctx, data)
+}
+
+func GetPostMsgListController(ctx *gin.Context) {
+	page, err := strconv.ParseInt(ctx.Query("page"), 10, 64)
+	if err != nil {
+		page = 1
+		zap.L().Error("get page failed", zap.Error(err))
+	}
+	size, err := strconv.ParseInt(ctx.Query("size"), 10, 64)
+	if err != nil {
+		size = 10
+		zap.L().Error("get page size failed", zap.Error(err))
+	}
+	data, err := service.GetPostMsgList(page, size)
+	if err != nil {
+		ResponseErr(ctx, CodeServerBusy)
+		return
 	}
 	ResponseSuccess(ctx, data)
 }

@@ -1,6 +1,7 @@
 package service
 
 import (
+	"fmt"
 	"tiny-bbs/dao/mysql"
 	"tiny-bbs/models"
 	"tiny-bbs/pkg/jwt"
@@ -24,13 +25,17 @@ func SignUp(user *models.ParmaRegister) (err error) {
 	return mysql.InsertUser(u)
 }
 
-func Login(user *models.ParmaLogin) (token string, err error) {
+func Login(user *models.ParmaLogin) (token string, uid string, err error) {
 	u := &models.User{
 		Username: user.Username,
 		Password: user.Password,
 	}
 	if err := mysql.Login(u); err != nil {
-		return "", err
+		return "", "", err
 	}
-	return jwt.GenToken(u.UserId, u.Username)
+	token, err = jwt.GenToken(u.UserId, u.Username)
+	if err != nil {
+		return "", fmt.Sprintf("%d", u.UserId), err
+	}
+	return token, fmt.Sprintf("%d", u.UserId), err
 }

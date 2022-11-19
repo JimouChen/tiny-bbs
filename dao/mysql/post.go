@@ -1,6 +1,9 @@
 package mysql
 
-import "tiny-bbs/models"
+import (
+	"go.uber.org/zap"
+	"tiny-bbs/models"
+)
 
 func CreatePost(param *models.PostParam) (err error) {
 	sql := `insert into post(
@@ -20,6 +23,19 @@ func GetPostMsgById(id int64) (data *models.PostParam, err error) {
 			from post where post_id = ?;`
 	err = db.Get(data, sql, id)
 	if err != nil {
+		return nil, ErrServerBusy
+	}
+	return
+}
+
+func GetPostMsgList(page, size int64) (data []*models.PostParam, err error) {
+	sql := `select
+			post_id, title, content, author_id, community_id, create_time
+			from post limit ?, ?;`
+	data = make([]*models.PostParam, 0, (page-1)*size)
+	err = db.Select(&data, sql, page, size)
+	if err != nil {
+		zap.L().Error("db.Get(data, sql) failed", zap.Error(err))
 		return nil, ErrServerBusy
 	}
 	return
