@@ -140,3 +140,170 @@
 {"level":"DEBUG","time":"2022-11-17T21:18:06.660+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
 {"level":"INFO","time":"2022-11-17T21:18:13.285+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2022-11-17T21:18:13.286+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T15:14:47.914+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T15:15:23.896+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T15:15:23.897+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T15:15:25.029+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T15:15:45.597+0800","caller":"tiny-bbs/main.go:86","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T15:15:45.598+0800","caller":"tiny-bbs/main.go:95","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T15:15:46.886+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T15:15:59.914+0800","caller":"tiny-bbs/main.go:86","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T15:15:59.916+0800","caller":"tiny-bbs/main.go:95","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T15:18:09.886+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T15:18:30.110+0800","caller":"tiny-bbs/main.go:84","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T15:18:30.111+0800","caller":"tiny-bbs/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T15:18:31.569+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T15:18:38.831+0800","caller":"tiny-bbs/main.go:85","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T15:18:38.832+0800","caller":"tiny-bbs/main.go:94","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T15:25:58.321+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T15:35:28.062+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T15:35:28.064+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T15:35:30.114+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T15:36:25.209+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T15:36:25.211+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T15:36:27.459+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T15:38:40.619+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T15:38:40.620+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T15:38:43.144+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T15:39:20.442+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T15:39:20.443+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T15:39:21.448+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T15:39:53.846+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T15:39:53.848+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T15:39:55.143+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T15:49:09.045+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T15:49:09.047+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T15:49:11.057+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T15:50:16.803+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T15:50:16.804+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:10:02.157+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T16:11:59.740+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:11:59.742+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:12:01.852+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T16:13:20.477+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:13:20.479+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:13:22.320+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-18T16:13:44.632+0800","caller":"controller/community.go:28","msg":"service.GetCommunityList() get community list failed...","error":"服务器繁忙"}
+{"level":"INFO","time":"2022-11-18T16:14:38.965+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:14:38.966+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:16:51.131+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T16:17:20.963+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:17:20.965+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:17:22.876+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T16:20:05.550+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:20:05.552+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:20:07.105+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T16:20:52.595+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:20:52.597+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:21:28.654+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-18T16:21:50.920+0800","caller":"controller/community.go:28","msg":"service.GetCommunityList() get community list failed...","error":"must pass a pointer, not a value, to StructScan destination"}
+{"level":"INFO","time":"2022-11-18T16:22:05.330+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:22:05.332+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:27:27.466+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-18T16:27:50.743+0800","caller":"controller/community.go:28","msg":"service.GetCommunityList() get community list failed...","error":"must pass a pointer, not a value, to StructScan destination"}
+{"level":"ERROR","time":"2022-11-18T16:29:04.263+0800","caller":"controller/community.go:28","msg":"service.GetCommunityList() get community list failed...","error":"must pass a pointer, not a value, to StructScan destination"}
+{"level":"INFO","time":"2022-11-18T16:30:12.709+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:30:12.710+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:30:14.954+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T16:31:16.218+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:31:16.219+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:31:18.381+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-18T16:31:37.349+0800","caller":"controller/community.go:28","msg":"service.GetCommunityList() get community list failed...","error":"must pass a pointer, not a value, to StructScan destination"}
+{"level":"INFO","time":"2022-11-18T16:31:42.280+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:31:42.281+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:34:16.862+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-18T16:34:44.904+0800","caller":"controller/community.go:28","msg":"service.GetCommunityList() get community list failed...","error":"nil pointer passed to StructScan destination"}
+{"level":"ERROR","time":"2022-11-18T16:35:16.008+0800","caller":"controller/community.go:28","msg":"service.GetCommunityList() get community list failed...","error":"nil pointer passed to StructScan destination"}
+{"level":"INFO","time":"2022-11-18T16:37:12.702+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:37:12.704+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:37:14.621+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-18T16:37:37.938+0800","caller":"controller/community.go:26","msg":"service.CommIntroByIdController() get community detail failed...","error":"nil pointer passed to StructScan destination"}
+{"level":"INFO","time":"2022-11-18T16:39:12.872+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:39:12.873+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:39:14.682+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T16:40:20.851+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:40:20.852+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:40:22.422+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T16:41:09.751+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:41:09.752+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:41:11.045+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"WARN","time":"2022-11-18T16:41:40.193+0800","caller":"mysql/community.go:29","msg":"community list is empty"}
+{"level":"ERROR","time":"2022-11-18T16:41:40.194+0800","caller":"controller/community.go:26","msg":"service.CommIntroByIdController() get community detail failed...","error":"服务器繁忙"}
+{"level":"INFO","time":"2022-11-18T16:42:01.587+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:42:01.589+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:45:36.905+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"WARN","time":"2022-11-18T16:45:51.308+0800","caller":"mysql/community.go:29","msg":"community list is empty"}
+{"level":"ERROR","time":"2022-11-18T16:45:51.309+0800","caller":"controller/community.go:26","msg":"service.CommIntroByIdController() get community detail failed...","error":"服务器繁忙"}
+{"level":"INFO","time":"2022-11-18T16:46:36.163+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:46:36.165+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:46:37.723+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T16:47:01.603+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:47:01.605+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:49:13.175+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T16:50:40.119+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:50:40.120+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:50:41.853+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T16:51:46.482+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:51:46.483+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:51:47.889+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T16:53:23.003+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:53:23.004+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T16:53:24.462+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T16:53:52.631+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T16:53:52.632+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T17:00:38.668+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"WARN","time":"2022-11-18T17:00:56.494+0800","caller":"mysql/community.go:31","msg":"community list is empty"}
+{"level":"ERROR","time":"2022-11-18T17:00:56.495+0800","caller":"controller/community.go:26","msg":"service.CommIntroByIdController() get community detail failed...","error":"服务器繁忙"}
+{"level":"INFO","time":"2022-11-18T17:01:48.120+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T17:01:48.122+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T17:01:49.703+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"WARN","time":"2022-11-18T17:02:03.969+0800","caller":"mysql/community.go:29","msg":"community list is empty"}
+{"level":"ERROR","time":"2022-11-18T17:02:03.969+0800","caller":"controller/community.go:26","msg":"service.CommIntroByIdController() get community detail failed...","error":"服务器繁忙"}
+{"level":"INFO","time":"2022-11-18T17:02:12.135+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T17:02:12.136+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T17:06:59.494+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-18T17:07:06.272+0800","caller":"controller/community.go:25","msg":"param error","error":"strconv.ParseInt: parsing \"2e\": invalid syntax"}
+{"level":"WARN","time":"2022-11-18T17:07:06.274+0800","caller":"mysql/community.go:29","msg":"community list is empty"}
+{"level":"ERROR","time":"2022-11-18T17:07:06.274+0800","caller":"controller/community.go:30","msg":"service.CommIntroByIdController() get community detail failed...","error":"服务器繁忙"}
+{"level":"INFO","time":"2022-11-18T17:07:30.215+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T17:07:30.218+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T17:07:31.564+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-18T17:07:33.896+0800","caller":"controller/community.go:25","msg":"param error","error":"strconv.ParseInt: parsing \"2e\": invalid syntax"}
+{"level":"INFO","time":"2022-11-18T17:07:40.995+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T17:07:40.996+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-18T21:29:31.328+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-18T21:31:19.623+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-18T21:31:19.625+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-19T11:57:19.750+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-19T11:58:30.796+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-19T11:58:30.797+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-19T14:47:40.507+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-19T14:47:43.601+0800","caller":"service/post.go:31","msg":"get author name failed.","author id":115803996064583680,"error":"missing destination name id in *models.User"}
+{"level":"ERROR","time":"2022-11-19T14:47:43.601+0800","caller":"controller/post.go:43","msg":"service.GetPostMsgById err...","error":"missing destination name id in *models.User"}
+{"level":"INFO","time":"2022-11-19T14:50:32.329+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-19T14:50:32.331+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-19T14:50:34.582+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-19T14:54:49.305+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-19T14:54:49.307+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-19T14:54:51.855+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-19T14:55:19.771+0800","caller":"service/post.go:34","msg":"get author name failed.","author id":115803996064583680,"error":"missing destination name id in *models.User"}
+{"level":"ERROR","time":"2022-11-19T14:55:19.771+0800","caller":"controller/post.go:43","msg":"service.GetPostMsgById err...","error":"missing destination name id in *models.User"}
+{"level":"INFO","time":"2022-11-19T14:57:40.957+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-19T14:57:40.958+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-19T14:57:42.418+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"ERROR","time":"2022-11-19T14:57:45.174+0800","caller":"service/post.go:34","msg":"get author name failed.","author id":115803996064583680,"error":"missing destination name id in *models.User"}
+{"level":"ERROR","time":"2022-11-19T14:57:45.174+0800","caller":"controller/post.go:43","msg":"service.GetPostMsgById err...","error":"missing destination name id in *models.User"}
+{"level":"INFO","time":"2022-11-19T14:58:36.401+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-19T14:58:36.402+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-19T14:58:39.551+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-19T14:59:08.067+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-19T14:59:08.069+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-19T14:59:24.813+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-19T14:59:42.696+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-19T14:59:42.697+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-19T15:01:14.577+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-19T15:03:28.665+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-19T15:03:28.666+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-19T15:03:30.104+0800","caller":"tiny-bbs/main.go:34","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-19T15:05:32.504+0800","caller":"tiny-bbs/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-19T15:05:32.506+0800","caller":"tiny-bbs/main.go:92","msg":"Server exiting"}

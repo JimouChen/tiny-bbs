@@ -29,6 +29,9 @@ func Init() *gin.Engine {
 	{
 		v1.GET("/community", controller.CommunityController)
 		v1.GET("/community/:id", controller.CommIntroByIdController)
+		// 发布信息
+		v1.POST("/post", controller.PostMsgController)
+		v1.GET("/post/:id", controller.GetPostMsgByIdController)
 	}
 	return r
 }

@@ -64,3 +64,10 @@ func Login(user *models.User) (err error) {
 	return
 
 }
+
+func GetUserById(id int64) (user *models.User, err error) {
+	sql := "select user_id, username from user where user_id = ?;"
+	user = new(models.User)
+	err = db.Get(user, sql, id)
+	return
+}
