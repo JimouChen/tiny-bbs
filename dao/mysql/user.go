@@ -11,11 +11,12 @@ import (
 const secretBase = "neayacom"
 
 var (
-	ErrUserNotExist    = errors.New("用户不存在")
-	ErrUserExist       = errors.New("用户已经存在")
-	ErrPswUName        = errors.New("用户名或密码输入错误")
-	ErrInvalidPswUName = errors.New("用户名或密码不合法")
-	ErrServerBusy      = errors.New("服务器繁忙")
+	ErrUserNotExist     = errors.New("用户不存在")
+	ErrUserExist        = errors.New("用户已经存在")
+	ErrPswUName         = errors.New("用户名或密码输入错误")
+	ErrInvalidPswUName  = errors.New("用户名或密码不合法")
+	ErrServerBusy       = errors.New("服务器繁忙")
+	ErrInvalidVoteParam = errors.New("投票值应在[1 0 -1]中选择")
 )
 
 func CheckUserIsExist(username string) (err error) {

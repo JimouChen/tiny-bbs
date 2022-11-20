@@ -31,7 +31,7 @@ func GetPostMsgById(id int64) (data *models.PostParam, err error) {
 func GetPostMsgList(page, size int64) (data []*models.PostParam, err error) {
 	sql := `select
 			post_id, title, content, author_id, community_id, create_time
-			from post limit ?, ?;`
+			from post order by create_time desc limit ?, ?;` //按最新的发布时间排
 	data = make([]*models.PostParam, 0, (page-1)*size)
 	err = db.Select(&data, sql, page, size)
 	if err != nil {

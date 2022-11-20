@@ -12,7 +12,7 @@ import (
 type Response struct {
 	Code int         `json:"code"`
 	Msg  interface{} `json:"msg"`
-	Data interface{} `json:"data"`
+	Data interface{} `json:"data,omitempty"`
 }
 
 const (

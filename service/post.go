@@ -3,6 +3,7 @@ package service
 import (
 	"go.uber.org/zap"
 	"tiny-bbs/dao/mysql"
+	"tiny-bbs/dao/redis"
 	"tiny-bbs/models"
 	"tiny-bbs/pkg/snowflake"
 )
@@ -11,7 +12,12 @@ func CreatePost(p *models.PostParam) (err error) {
 	// 生成id
 	p.ID = snowflake.GenID()
 	// 保存到数据库,返回
-	return mysql.CreatePost(p)
+	err = mysql.CreatePost(p)
+	if err != nil {
+		return err
+	}
+	err = redis.CreatePost(p.ID)
+	return
 }
 
 func GetPostMsgById(id int64) (data *models.PostApiDetail, err error) {
