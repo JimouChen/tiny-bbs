@@ -10,6 +10,14 @@ import (
 	"tiny-bbs/service"
 )
 
+// SignUpController 注册
+// @Summary 注册用户
+// @Description 用户输入用户名、密码和确认密码来注册
+// @Tags 用户相关接口
+// @Accept application/json
+// @Produce application/json
+// @Security ApiKeyAuth
+// @Router /signup [post]
 func SignUpController(ctx *gin.Context) {
 	//- 参数获取和校验
 	//var userMsg *models.ParmaRegister

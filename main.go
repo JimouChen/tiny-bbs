@@ -18,6 +18,19 @@ import (
 	"tiny-bbs/settings"
 )
 
+// @title Tiny-BBS
+// @version 1.0
+// @description A lightweight BBS web system based on GO implementation
+// @termsOfService http://swagger.io/terms/
+
+// @contact.name Neaya
+// @contact.url https://github.com/JimouChen
+
+// @license.name Apache 2.0
+// @license.url http://www.apache.org/licenses/LICENSE-2.0.html
+
+// @host localhost
+// @BasePath localhost:8081/api/v1/
 func main() {
 	//- 加载配置
 	if err := settings.InitCfg(); err != nil {

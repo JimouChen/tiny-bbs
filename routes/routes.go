@@ -3,8 +3,14 @@ package routes
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/viper"
+	gs "github.com/swaggo/gin-swagger"
+	"time"
+
+	//"github.com/swaggo/gin-swagger/swaggerFiles"
+	"github.com/swaggo/files"
 	"net/http"
 	"tiny-bbs/controller"
+	_ "tiny-bbs/docs" // 千万不要忘了导入把你上一步生成的docs
 	"tiny-bbs/middleware"
 )
 
@@ -12,7 +18,7 @@ func Init() *gin.Engine {
 	//r := gin.New()
 	//r.Use(logger.GinLogger(), logger.GinRecovery(true))
 	r := gin.Default()
-	r.GET("/", func(context *gin.Context) {
+	r.GET("/", middleware.RateLimitMiddleware(time.Second*2, 1), func(context *gin.Context) {
 		context.JSON(http.StatusOK, gin.H{
 			"version": viper.GetString("app.version"),
 		})
@@ -40,5 +46,6 @@ func Init() *gin.Engine {
 		// 投票
 		v1.POST("/vote", controller.PostVoteController)
 	}
+	r.GET("/swagger/*any", gs.WrapHandler(swaggerFiles.Handler))
 	return r
 }

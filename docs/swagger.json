@@ -1,0 +1,42 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "A lightweight BBS web system based on GO implementation",
+        "title": "Tiny-BBS",
+        "termsOfService": "http://swagger.io/terms/",
+        "contact": {
+            "name": "Neaya",
+            "url": "https://github.com/JimouChen"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0"
+    },
+    "host": "localhost",
+    "basePath": "localhost:8081/api/v1/",
+    "paths": {
+        "/signup": {
+            "post": {
+                "security": [
+                    {
+                        "ApiKeyAuth": []
+                    }
+                ],
+                "description": "用户输入用户名、密码和确认密码来注册",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "用户相关接口"
+                ],
+                "summary": "注册用户",
+                "responses": {}
+            }
+        }
+    }
+}

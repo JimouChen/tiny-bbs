@@ -1,0 +1,28 @@
+basePath: localhost:8081/api/v1/
+host: localhost
+info:
+  contact:
+    name: Neaya
+    url: https://github.com/JimouChen
+  description: A lightweight BBS web system based on GO implementation
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: Tiny-BBS
+  version: "1.0"
+paths:
+  /signup:
+    post:
+      consumes:
+      - application/json
+      description: 用户输入用户名、密码和确认密码来注册
+      produces:
+      - application/json
+      responses: {}
+      security:
+      - ApiKeyAuth: []
+      summary: 注册用户
+      tags:
+      - 用户相关接口
+swagger: "2.0"
