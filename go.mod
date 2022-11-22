@@ -3,6 +3,7 @@ module tiny-bbs
 go 1.17
 
 require (
+	github.com/anaskhan96/soup v1.2.5
 	github.com/bwmarrin/snowflake v0.3.0
 	github.com/fsnotify/fsnotify v1.6.0
 	github.com/gin-gonic/gin v1.8.1
