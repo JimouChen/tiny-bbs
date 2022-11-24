@@ -6,6 +6,7 @@ require (
 	github.com/anaskhan96/soup v1.2.5
 	github.com/bwmarrin/snowflake v0.3.0
 	github.com/fsnotify/fsnotify v1.6.0
+	github.com/gin-contrib/cors v1.4.0
 	github.com/gin-gonic/gin v1.8.1
 	github.com/go-playground/validator/v10 v10.10.0
 	github.com/go-redis/redis v6.15.9+incompatible

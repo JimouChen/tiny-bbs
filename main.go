@@ -82,7 +82,6 @@ func main() {
 		if err := srv.ListenAndServe(); err != nil && err != http.ErrServerClosed {
 			zap.L().Fatal("listen: %s\n", zap.Error(err))
 		}
-
 	}()
 
 	// 等待中断信号来优雅地关闭服务器，为关闭服务器操作设置一个5秒的超时
