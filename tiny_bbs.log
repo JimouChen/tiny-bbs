@@ -1,3 +1,6 @@
 {"level":"DEBUG","time":"2022-11-24T10:30:40.643+0800","caller":"tiny-bbs/main.go:47","msg":"init logger success..."}
 {"level":"INFO","time":"2022-11-24T10:31:01.886+0800","caller":"tiny-bbs/main.go:96","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2022-11-24T10:31:03.472+0800","caller":"tiny-bbs/main.go:105","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-24T10:39:02.087+0800","caller":"tiny-bbs/main.go:47","msg":"init logger success..."}
+{"level":"INFO","time":"2022-11-24T10:39:07.401+0800","caller":"tiny-bbs/main.go:95","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-24T10:39:07.402+0800","caller":"tiny-bbs/main.go:104","msg":"Server exiting"}
