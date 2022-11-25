@@ -2,7 +2,7 @@ app:
   name: "Tiny-BBS"
   mode: "dev"
   port: "8081"
-  version: "v0.0.3"
+  version: "v0.1.0"
   start_time: "2022-01-01"
   machine_id: 1
 
